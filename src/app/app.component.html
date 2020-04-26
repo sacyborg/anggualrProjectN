@@ -8,10 +8,8 @@
     <ul class="todo-list">
       <li *ngFor="let todo of todos" [class.completed]="todo.complete">
         <div class="view">
-         <!-- <input #textBox class="toggle" type="checkbox" (click)="toggleTodoComplete(todo)" [(ngModel)]='newTodo.title' [checked]="todo.complete">-->
-          <label>{{todo.title}}{{todo.id}} <!--{{textBox.name}}--></label>
+          <label>{{todo.id}} {{todo.title}} </label>
           <button class="destroy" (click)="removeTodo(todo)">Remove</button>
-          <!--<button class="get" (get)="todos()">Get</button>-->
         </div>
       </li>
     </ul>
