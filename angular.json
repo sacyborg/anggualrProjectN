@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "anggualrProjectN"
+    }
+  },
+  "defaultProject": "anggualrProjectN",
+  "cli": {
+    "analytics": "abd7c8ea-aaa0-4861-b0f6-4c4bdc46a4d7"
+  }
 }
